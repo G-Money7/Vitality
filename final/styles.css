@@ -1,0 +1,52 @@
+/* Bootstrap Fitness App Default Styles */
+
+/* Color Scheme */
+:root {
+    --primary-color: #ff5722; /* Energetic Orange */
+    --secondary-color: #009688; /* Teal */
+    --accent-color: #ffc107; /* Amber */
+}
+
+/* Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* Forms */
+.form-control {
+    border-radius: 0.25rem;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: var(--primary-color);
+}
+
+/* Cards */
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 1rem;
+}
